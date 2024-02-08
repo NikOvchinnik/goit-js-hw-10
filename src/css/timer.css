@@ -4,20 +4,6 @@ body {
   margin: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.title {
-  margin: 20px;
-}
-
-.tasks {
-  margin: 20px;
-}
-
 .main {
   display: block;
   margin: 20px;
@@ -38,7 +24,7 @@ ul {
 }
 
 [data-start] {
-  background: #4e75ff;
+  background-color: #4e75ff;
   border-radius: 8px;
   border: none;
   width: 75px;
@@ -53,17 +39,17 @@ ul {
 }
 
 [data-start]:hover {
-  background: #6c8cff;
+  background-color: #6c8cff;
 }
 
 button[disabled] {
-  background: #cfcfcf;
+  background-color: #cfcfcf;
   color: #989898;
   cursor: auto;
 }
 
 button[disabled]:hover {
-  background: #cfcfcf;
+  background-color: #cfcfcf;
   color: #989898;
   cursor: auto;
 }
